@@ -9,7 +9,7 @@ int len()
 
 unsigned rightrot(unsigned x, int n)
 {
-    l = len();
+    int l = len();
     unsigned rbits;
 
     if ((n = n % l) > 0){
